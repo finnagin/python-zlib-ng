@@ -163,7 +163,7 @@ jobs:
       - package-checks
       - test-static
       - test-dynamic
-      - test-arch
+      # - test-arch
     strategy:
       matrix:
         os:
